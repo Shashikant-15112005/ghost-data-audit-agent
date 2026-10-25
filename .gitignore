@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and development transcript
+.env
+.env.*
+!.env.example
+log.txt
+
+# Operating system and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+.sample-output.csv
