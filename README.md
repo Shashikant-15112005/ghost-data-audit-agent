@@ -1,5 +1,7 @@
 # GHOST DATA STILL EXISTS
 
+https://ghost-data-audit-agent-h67bbkqgt7hmfcveldg8je.streamlit.app/
+
 **A deterministic deletion audit agent for the HackerRank Orchestrate October 2026 challenge. It reads the participant-facing request, identity, policy, activity, and evidence files; reconstructs the state at each request's `audit_at`; and writes the required `output.csv` schema. **
 
 [ PROBLEM STATEMENT : Northstar Shop (an imaginary company) lost $2.4 million after one supposedly deleted customer came back as a ghost in its systems. Every internal dashboard showed the deletion request as “Complete.” Weeks later, the same customer tried to create a new account. The platform refused: “This email is already registered.”
