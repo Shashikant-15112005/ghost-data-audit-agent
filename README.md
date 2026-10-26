@@ -29,6 +29,16 @@ python code/main.py
 
 The command writes `output.csv` at the repository root. The input files must be present under `dataset/`.
 
+## Local interface
+
+To use the visual interface, install the requirements above, then run this from the repository root:
+
+```powershell
+python -m streamlit run code/app.py
+```
+
+Streamlit opens the local app in your browser. Click **Run full audit** to process all requests, filter results by status, select a case to inspect its ordered evidence and remediation steps, and download `output.csv`. The app reads the local `dataset/` folder and writes results to the repository root; it does not upload the data to a hosted service.
+
 ## Evaluate
 
 ```powershell
