@@ -4,7 +4,9 @@ https://ghost-data-audit-agent-h67bbkqgt7hmfcveldg8je.streamlit.app/
 
 > A deterministic deletion audit agent for the HackerRank Orchestrate October 2026 challenge. It reads the participant-facing request, identity, policy, activity, and evidence files; reconstructs the state at each request's `audit_at`; and writes the required `output.csv` schema.
 
-# Problem Statement : Northstar Shop (an imaginary company) lost $2.4 million after one supposedly deleted customer came back as a ghost in its systems. Every internal dashboard showed the deletion request as “Complete.” Weeks later, the same customer tried to create a new account. The platform refused: “This email is already registered.”
+# Problem Statement : 
+
+Northstar Shop (an imaginary company) lost $2.4 million after one supposedly deleted customer came back as a ghost in its systems. Every internal dashboard showed the deletion request as “Complete.” Weeks later, the same customer tried to create a new account. The platform refused: “This email is already registered.”
 
 What looked like a simple signup bug exposed a much larger failure. The investigation uncovered personal data across secondary databases, support attachments, search indexes, analytics exports, logs, archives, and backups. A synchronization job had even recreated information that the primary account service had successfully deleted. The agent must investigate the supplied records, determine the user's current and historical identifiers, reconstruct what happened across systems, and decide whether the deletion is actually complete.
 
